@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family:'Inter',sans-serif;
+
+}
+
+.wrapper {
+    background-color:#23252C;
+    padding:44px 116px; 
+    width:550px;
+    margin: 100px auto;
+}
+
+.wrapperInner{
+    background-color:#1A1B21;
+    padding-bottom:24px;
+}
+/*  Info */
+
+
+
+
+.info .avatar {
+    width:317px;
+    height:317px;
+}
+
+.info .infoWrapper{
+    overflow: hidden;
+}
+
+.info .name {
+    font-size:2.5rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;   
+    margin-top:21px; 
+}
+
+
+.info .title {
+    color:#F3BF99;
+    font-weight:400;
+    font-size:1.3rem;
+    text-align: center;
+    margin-top:2px;
+}
+
+.info .description{
+    color:#F5F5F5;
+    font-weight: 400;
+    font-size:1.2rem;
+    text-align: center;
+    margin-top:4px;
+}
+
+.info .btnWrapper{
+    display:flex;
+    justify-content: space-between;
+    padding:0 35px;
+    margin-top:15px;
+}
+
+.info .btn {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.4rem;
+    font-weight: 500;
+    border:none;
+    outline:none;
+    padding: 9px 0px;
+    width:115px;
+    border-radius:6px;
+    cursor: pointer;
+}
+
+.info .btn.email{
+    border:1px solid #D1D5DB;
+    background-color:#fff;
+    color:#000;
+}
+
+.info .btn.linkedin {
+    background-color:#5093E2;
+    color:#fff;
+}
+.info .btn span{
+    margin-left:8px;
+}
+
+/* About */
+
+.about {
+    margin-top:33px;
+    padding:0 34px;
+}
+
+.about h4{
+    font-size:1.6rem;
+    color:#F5F5F5;
+    font-weight: bold;
+}
+
+.about .aboutDescription{
+    margin-top:5px;
+    font-size:1rem;
+    font-weight: 400;
+    color:#DCDCDC;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+/* Interest */
+
+.interest {
+    margin-top:27px;
+    padding:0 36px;
+}
+
+.interest  h4{
+    color: #F5F5F5;
+    font-size: 1.6rem;  
+    font-weight: 700;
+}
+
+.interest .interestDescription{
+    color: #DCDCDC;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    margin-top:5px;
+}
+
+/* Footer */
+
+footer {
+    height:64px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+}
+
+footer img {
+    margin:0 12px;
+}
